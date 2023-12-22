@@ -11,16 +11,14 @@ import RoundPrerna from "../assest/rpc.png";
 import RoundSonam from "../assest/rsb.png";
 import RoundNeha from "../assest/rns.png";
 import RoundRathi from "../assest/rpr.png";
-const ParentCarousel = () => {
-  const [index, setIndex] = useState(0);
 
+const ParentCarousel = () => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    beforeChange: (current, next) => setIndex(next), // Sync with react-bootstrap/Carousel
   };
 
   const parentsData = [
