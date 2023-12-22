@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Slider from "react-slick";
 import Card from "react-bootstrap/Card";
 import { FaPlayCircle } from "react-icons/fa";
